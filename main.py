@@ -19,6 +19,7 @@ else:
             guess_count = guess_count + 1
             print(f"Good job! You guessed the right number, it was {x}")
             print(f"You guessed it in {guess_count} tries!")
+            input("Press a key twice to quit")
         else:
             if guess < x:
                 print("You need to guess higher")
